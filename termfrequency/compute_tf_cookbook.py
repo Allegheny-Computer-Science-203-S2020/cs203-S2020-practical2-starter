@@ -4,7 +4,6 @@ import sys
 import string
 
 # The shared mutable data
-# pylint: disable=invalid-name
 data = []
 words = []
 word_freqs = []
@@ -12,7 +11,6 @@ word_freqs = []
 
 def read_file(path_to_file):
     """Take a path to a file and assign file contents to the global data."""
-    # pylint: disable=global-statement
     global data
     with open(path_to_file) as data_file:
         data = data + list(data_file.read())
@@ -82,9 +80,7 @@ if __name__ == "__main__":
     read_file(sys.argv[1])
     filter_chars_and_normalize()
     scan()
-    remove_stop_words()
+    # TODO: Add the missing command
     frequencies()
-    sort()
-    # display the word frequency table
-    for tf in word_freqs[0:25]:
-        print(tf[0], " - ", tf[1])
+    # TODO: sort the computed frequencies
+    # TODO: display the word frequency table
