@@ -2,6 +2,10 @@
 
 from termfrequency import compute_tf_cookbook
 
+# TODO: Add in at least four more test cases and assertions
+# TODO: Make sure that you test as many functions as is possible
+# TODO: Use the following test case as an example for your own tests
+
 
 def test_read_file_populates_data_0():
     """Checks that the size of the input variable is correct."""
