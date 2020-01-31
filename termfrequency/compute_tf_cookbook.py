@@ -4,7 +4,6 @@ import sys
 import string
 
 # The shared mutable data
-data = []
 words = []
 word_freqs = []
 
