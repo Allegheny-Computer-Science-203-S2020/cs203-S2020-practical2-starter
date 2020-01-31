@@ -1,7 +1,15 @@
 """Compute term frequencies for an input file using a cookbook style."""
 
-import sys
-import string
+# TODO: Add the missing import statements
+# TODO: Make sure that you understand the purpose of these import statements
+
+# TODO: Add all of the missing code to this file, ensuring that it
+# runs correctly and produces the expected output for both input files
+
+# TODO: Think carefully about how you would write an automated test
+# case for each of the functions in this module. Ask these questions:
+# --> For a given input, what is the output of this function?
+# --> How can I know that the function's output is, in fact, correct?
 
 # The shared mutable data
 words = []
@@ -79,7 +87,7 @@ if __name__ == "__main__":
     read_file(sys.argv[1])
     filter_chars_and_normalize()
     scan()
-    # TODO: Add the missing command
+    # TODO: Add the missing function call
     frequencies()
     # TODO: sort the computed frequencies
     # TODO: display the word frequency table
